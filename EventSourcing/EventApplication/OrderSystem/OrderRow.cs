@@ -8,5 +8,6 @@ namespace EventApplication.OrderSystem
 {
     public class OrderRow
     {
+        public long Amount { get; set; }
     }
 }
