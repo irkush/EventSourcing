@@ -9,6 +9,8 @@ namespace EventApplication
 
         public string Name { get; set; }
 
+        public DateTime Timestamp { get; set; }
+
         public override string ToString()
         {
             return Name + " with Id" + Id;
