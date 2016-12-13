@@ -13,7 +13,7 @@ namespace EventApplication
 
         public override string ToString()
         {
-            return $"{Name} with Id {Id}";
+            return Name + " with Id" + Id;
         }
     }
 }
