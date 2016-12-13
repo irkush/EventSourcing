@@ -50,6 +50,7 @@
     <Compile Include="Api\ICommand.cs" />
     <Compile Include="Api\IDomainRepository.cs" />
     <Compile Include="AuditEvent.cs" />
+    <Compile Include="CommandBus.cs" />
     <Compile Include="CreateOrderStatus.cs" />
     <Compile Include="CreateOrderCommand.cs" />
     <Compile Include="OrderSystem\Order.cs" />
