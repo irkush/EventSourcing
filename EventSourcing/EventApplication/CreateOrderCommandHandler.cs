@@ -20,5 +20,10 @@ namespace EventApplication
         {
             return CreateOrderStatus.Successful;
         }
+
+        public override void Handle(CreateOrderCommand command)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
