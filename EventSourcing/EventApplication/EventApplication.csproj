@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AuditEvent.cs" />
+    <Compile Include="CreateOrderCommand.cs" />
     <Compile Include="OrderSystem\Order.cs" />
     <Compile Include="OrderSystem\OrderEvent.cs" />
     <Compile Include="OrderSystem\OrderRow.cs" />

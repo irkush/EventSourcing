@@ -8,6 +8,7 @@ namespace EventApplication.OrderSystem
 {
     public class Order
     {
-        public List<OrderRow> OrderRows = new List<OrderRow>();
+        public decimal Decimal { get; set; }
+        //public List<OrderRow> OrderRows = new List<OrderRow>();
     }
 }
