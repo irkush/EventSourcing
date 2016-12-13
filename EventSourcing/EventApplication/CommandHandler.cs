@@ -10,19 +10,19 @@ namespace EventApplication
 
     {
 
-        //private ICommandHandlingContext<TCommand> context;
+        private ICommandHandlingContext<TCommand> context;
 
 
 
-        //void IHandleCommands<TCommand>.Handle(ICommandHandlingContext<TCommand> handlingContext)
+        void IHandleCommands<TCommand>.Handle(ICommandHandlingContext<TCommand> handlingContext)
 
-        //{
+        {
 
-        //    context = handlingContext;
+            context = handlingContext;
 
-        //    Handle(handlingContext.Command);
+            Handle(handlingContext.Command);
 
-        //}
+        }
 
 
 
@@ -30,22 +30,21 @@ namespace EventApplication
 
 
 
-        //protected void Return(int value)
+        protected void Return(int value)
 
-        //{
+        {
 
-        //    context.Return(value);
+            context.Return(value);
 
-        //}
+        }
 
 
 
-        //protected void Return(Enum value)
+        protected void Return(Enum value)
 
-        //{
+        {
 
-        //    context.Return(Convert.ToInt32(value));
+            context.Return(Convert.ToInt32(value));
 
-        //}
-
+        }
     }

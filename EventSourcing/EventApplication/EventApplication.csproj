@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICommand.cs" />
     <Compile Include="IHandleCommands.cs" />
     <Compile Include="AuditEvent.cs" />
     <Compile Include="CreateOrderCommandHandler.cs" />
