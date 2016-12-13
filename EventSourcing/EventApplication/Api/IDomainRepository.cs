@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EventApplication.Api
 {
-    internal interface IDomainRepository
+    public interface IDomainRepository
     {
     }
 }

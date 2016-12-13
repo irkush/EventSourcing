@@ -49,6 +49,8 @@
   <ItemGroup>
     <Compile Include="Api\ICommand.cs" />
     <Compile Include="Api\IDomainRepository.cs" />
+    <Compile Include="ICommandHandlingContext.cs" />
+    <Compile Include="IHandleCommands.cs" />
     <Compile Include="AuditEvent.cs" />
     <Compile Include="CommandBus.cs" />
     <Compile Include="CreateOrderStatus.cs" />
