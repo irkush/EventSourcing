@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EventApplication.Api
 {
-    interface ICommand
+    public interface ICommand
     {
     }
 }
