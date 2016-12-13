@@ -31,6 +31,21 @@ namespace EventApplication
                 }
 
                 Console.ReadLine();
+
+
+                // Order system
+
+
+                // Create new Order
+                // Add order row
+                // Lower order row amount
+
+                // Get current state.
+                // Get audit events.
+                // Collect snapshot of events.
+
+                // Add order row
+                // Get current state.
             }
         }
     }

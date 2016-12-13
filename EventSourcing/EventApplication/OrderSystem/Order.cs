@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace EventApplication.OrderSystem
 {
-    class Order
+    public class Order
     {
+        public List<OrderRow> OrderRows = new List<OrderRow>();
     }
 }
