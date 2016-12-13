@@ -30,7 +30,7 @@ namespace EventApplication
                     }
                 }
 
-                Console.ReadLine();
+                
 
 
                 // Order system
@@ -46,6 +46,23 @@ namespace EventApplication
 
                 // Add order row
                 // Get current state.
+            }
+
+            while (true)
+            {
+                Console.WriteLine("Enter your command: ");
+                Console.WriteLine("1. Create new order");
+
+                Console.WriteLine("E. Exit program.");
+
+
+                var selection = Console.ReadKey();
+                Console.WriteLine("You selected " + selection.KeyChar);
+                if (selection.Key == ConsoleKey.E)
+                {
+                    Console.WriteLine("You exited");
+                    break;
+                }
             }
         }
     }
