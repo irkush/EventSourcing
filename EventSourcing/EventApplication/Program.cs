@@ -29,6 +29,7 @@ namespace EventApplication
                         Console.WriteLine(@event.Body);
                     }
                 }
+
                 Console.ReadLine();
             }
         }
